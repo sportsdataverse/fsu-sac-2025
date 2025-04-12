@@ -13,7 +13,7 @@ format:
     theme: [my_theme.scss]
     slide-number: true
     preview-links: auto
-    footer: "Slides link [`fsusac.sportsdataverse.org`](https://fsusac.sportsdataverse.org/){target='_blank'} | [Source code](https://github.com/sportsdataverse/fsu-sac/){target='_blank'} | Author: Saiem Gilani ![](https://img.shields.io/github/followers/saiemgilani?color=eee&label=%40saiemgilani&logo=github&style=for-the-badge){target='_blank'}"
+    footer: "Slides link [`fsusac.sportsdataverse.org`](https://fsusac.sportsdataverse.org/){target='_blank'} | [Source code](https://github.com/sportsdataverse/fsu-sac-2025/){target='_blank'} | Author: Saiem Gilani ![](https://img.shields.io/github/followers/SaiemGilani?style=for-the-badge&logo=Github&label=%40SaiemGilani%20followers&color=eee){target='_blank'}"
 # author: "Saiem Gilani"
 #affiliation: 
 execute:
@@ -42,7 +42,7 @@ The topic of our conversation will center around how to get access to sports dat
 
 ## About me
 
-Saiem Gilani - Lead engineer and founder of the SportsDataverse <br><a href='https://twitter.com/saiemgilani' target='blank'><img src="https://img.shields.io/twitter/follow/saiemgilani?color=blue&amp;label=%40saiemgilani&amp;logo=twitter&amp;style=for-the-badge" alt="@saiemgilani"/></a> <a href='https://github.com/saiemgilani' target='blank'><img src="https://img.shields.io/github/followers/saiemgilani?color=eee&amp;logo=Github&amp;style=for-the-badge" alt="@saiemgilani"/></a>
+Saiem Gilani - Lead engineer and founder of the SportsDataverse <br><a href='https://twitter.com/saiemgilani' target='blank'><img src="https://img.shields.io/twitter/follow/saiemgilani?color=blue&amp;label=%40saiemgilani&amp;logo=x&amp;style=for-the-badge" alt="@saiemgilani"/></a> <a href='https://github.com/saiemgilani' target='blank'><img src="https://img.shields.io/github/followers/SaiemGilani?style=for-the-badge&logo=Github&label=%40SaiemGilani&color=eee" alt="@saiemgilani"/></a> <a href='https://bsky.app/profile/saiemgilani.bsky.social' target='blank'><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpublic.api.bsky.app%2Fxrpc%2Fapp.bsky.actor.getProfile%2F%3Factor%3Dsaiemgilani.bsky.social&query=%24.followersCount&style=for-the-badge&logo=bluesky&label=%40saiemgilani.bsky.social&amp;" alt="@saiemgilani.bsky.social"/></a>
 
 ### Background
 
@@ -269,12 +269,15 @@ The first public conversation on the SportsDataverse projects happened at the Ca
 
 -   Start with one of the many open-source sports data packages available from the [SportsDataverse](https://sportsdataverse.org) and their tutorials at their respective documentation sites
 -   Use the data to create your own projects and analyses to publish in blogs or on social media
+-   Work through introductory sports analytics texts like [Analyzing Baseball Data with R, 3rd Ed.](https://beanumber.github.io/abdwr3e/) which uses the [`baseballr`](https://billpetti.github.io/baseballr/) package to get you started with baseball data analysis
+
 
 ## Find opportunities to build your portfolio {.smaller}
 
 -   Contests are a great way to get involved with the community and meet other sports analytics enthusiasts
 -   Start sharing your code and projects online **so that people may see them**
 -   You may get opportunities to share projects created during the interview process on GitHub and in your portfolio
+-   Listen to thought-provoking conversations and let your curiosity lead you to new projects which address the questions using the data you have access to
 
 ## Then share on social media!
 
@@ -307,7 +310,7 @@ The first public conversation on the SportsDataverse projects happened at the Ca
 ### State-of-the-Art Offerings
 -   Customized curricula to meet the market needs for a blend of data science with sports analytics applications
 
-### Per Student IDEs/CPUs
+### Per Student IDE's/CPU's
 -   All coding modules will appear with preinstalled packages and data through a familiar IDE
 
 ### Custom CMS
@@ -315,7 +318,12 @@ The first public conversation on the SportsDataverse projects happened at the Ca
 
 ## AthlyticZ Preview
 
+```{r, echo=FALSE, eval=TRUE, out.width = "50%"}
+knitr::include_graphics("media/AthlyticZ_preview_image.png")
+```
+Sign up for preview of our Bayesian Modeling course using real NBA and soccer data
 
+FREE TRIAL: [https://athlyticz.com/stan-i-preview](https://athlyticz.com/stan-i-preview)
 
 . . .
 
@@ -381,15 +389,17 @@ knitr::include_graphics("https://raw.githubusercontent.com/nflverse/nflverse/mai
 
 ## Learn more
 
--   [`sportsdataverse`.org](https://www.sportsdataverse.org/) <a href='https://twitter.com/sportsdataverse' target='blank'><img src="https://img.shields.io/twitter/follow/sportsdataverse?color=blue&amp;label=%40SportsDataverse&amp;logo=x&amp;style=for-the-badge" alt="@sportsdataverse"/></a> <a href='https://bsky.app/profile/sportsdataverse.org' target='blank'><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpublic.api.bsky.app%2Fxrpc%2Fapp.bsky.actor.getProfile%2F%3Factor%3Dsportsdataverse.org&query=%24.followersCount&style=for-the-badge&logo=bluesky&label=Follow%20%40sportsdataverse.org&amp;" alt="@sportsdataverse.org"/></a>
+-   [`SportsDataverse`.org](https://www.sportsdataverse.org/) <a href='https://twitter.com/sportsdataverse' target='blank'><img src="https://img.shields.io/twitter/follow/sportsdataverse?color=blue&amp;label=%40SportsDataverse&amp;logo=x&amp;style=for-the-badge" alt="@sportsdataverse"/></a> <a href='https://bsky.app/profile/sportsdataverse.org' target='blank'><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpublic.api.bsky.app%2Fxrpc%2Fapp.bsky.actor.getProfile%2F%3Factor%3Dsportsdataverse.org&query=%24.followersCount&style=for-the-badge&logo=bluesky&label=%40sportsdataverse.org&amp;" alt="@sportsdataverse.org"/></a>
 
 -   [`cfbfastR` docs](https://saiemgilani.github.io/cfbfastR/) <a href='https://twitter.com/cfbfastR' target='blank'><img src="https://img.shields.io/twitter/follow/cfbfastR?color=blue&amp;label=%40cfbfastR&amp;logo=x&amp;style=for-the-badge" alt="@cfbfastR"/></a>
 
--   [Game on Paper](https://gameonpaper.com/cfb/) - for a look at the `sportsdataverse` python package serving live advanced stats with expected points and win probability metrics.
-<a href='https://twitter.com/gameonpaper' target='blank'><img src="https://img.shields.io/twitter/follow/gameonpaper?color=blue&amp;label=%40GameOnPaper&amp;logo=x&amp;style=for-the-badge" alt="@gameonpaper"/></a> <a href='https://bsky.app/profile/gameonpaper.com' target='blank'><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpublic.api.bsky.app%2Fxrpc%2Fapp.bsky.actor.getProfile%2F%3Factor%3Dgameonpaper.com&query=%24.followersCount&style=for-the-badge&logo=bluesky&label=Follow%20%40gameonpaper.com&amp;" alt="@gameonpaper.com"/></a>
+-   [Game on Paper](https://gameonpaper.com/cfb/) - for a look at the `sportsdataverse` python package serving live CFB expected points and win probability metrics
+<a href='https://twitter.com/gameonpaper' target='blank'><img src="https://img.shields.io/twitter/follow/gameonpaper?color=blue&amp;label=%40GameOnPaper&amp;logo=x&amp;style=for-the-badge" alt="@gameonpaper"/></a> <a href='https://bsky.app/profile/gameonpaper.com' target='blank'><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpublic.api.bsky.app%2Fxrpc%2Fapp.bsky.actor.getProfile%2F%3Factor%3Dgameonpaper.com&query=%24.followersCount&style=for-the-badge&logo=bluesky&label=%40gameonpaper.com&amp;" alt="@gameonpaper.com"/></a>
 
--   [AthlyticZ](https://athlyticz.com) - for courses to level up your data science skills with sports analytics veterans and industry professionals
+-   [AthlyticZ.com](https://athlyticz.com) - for courses to level up your data science skills taught by sports analytics veterans
 
-<a href='https://twitter.com/saiemgilani' target='blank'><img src="https://img.shields.io/twitter/follow/saiemgilani?color=blue&amp;label=%40saiemgilani&amp;logo=x&amp;style=for-the-badge" alt="@saiemgilani"/></a> <a href='https://github.com/saiemgilani' target='blank'><img src="https://img.shields.io/github/followers/saiemgilani?color=eee&amp;logo=Github&amp;style=for-the-badge" alt="@saiemgilani"/></a> <a href='https://bsky.app/profile/saiemgilani.bsky.social' target='blank'><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpublic.api.bsky.app%2Fxrpc%2Fapp.bsky.actor.getProfile%2F%3Factor%3Dsaiemgilani.bsky.social&query=%24.followersCount&style=for-the-badge&logo=bluesky&label=Follow%20%40saiemgilani.bsky.social&amp;" alt="@saiemgilani.bsky.social"/></a>
+-   [guideR](https://docs.google.com/spreadsheets/u/0/d/1LPe8xYduoep9qCrNzBGdJHaHZ8dnmdHNnu7UXZKzawU/htmlview#gid=145377427) - compilation of sports analytics resources
+
+- Connect with me: <a href='https://twitter.com/saiemgilani' target='blank'><img src="https://img.shields.io/twitter/follow/saiemgilani?color=blue&amp;label=%40saiemgilani&amp;logo=x&amp;style=for-the-badge" alt="@saiemgilani"/></a> <a href='https://github.com/saiemgilani' target='blank'><img src="https://img.shields.io/github/followers/SaiemGilani?style=for-the-badge&logo=Github&label=%40SaiemGilani&color=eee" alt="@saiemgilani"/></a> <a href='https://bsky.app/profile/saiemgilani.bsky.social' target='blank'><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpublic.api.bsky.app%2Fxrpc%2Fapp.bsky.actor.getProfile%2F%3Factor%3Dsaiemgilani.bsky.social&query=%24.followersCount&style=for-the-badge&logo=bluesky&label=%40saiemgilani.bsky.social&amp;" alt="@saiemgilani.bsky.social"/></a>
 
 ## Questions? {style="text-align: center;"}
