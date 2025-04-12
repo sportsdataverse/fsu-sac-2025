@@ -11,6 +11,20 @@ knitr::opts_chunk$set(
 )
 ```
 
-# FSU Sports Analytics Club Speaker Series  Slides
+# FSU Sports Analytics Club Speaker Series 2025 Slides
 
-Link to slides: <https://fsusac.sportsdataverse.org/>
+Link to slides: <https://fsu2025.sportsdataverse.org/>
+
+Saiem Gilani
+
+[![Twitter Follow](https://img.shields.io/twitter/follow/saiemgilani?color=blue&label=%40saiemgilani&logo=x&style=for-the-badge)](https://twitter.com/saiemgilani)
+<a href='https://bsky.app/profile/saiemgilani.bsky.social' target='blank'><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpublic.api.bsky.app%2Fxrpc%2Fapp.bsky.actor.getProfile%2F%3Factor%3Dsaiemgilani.bsky.social&query=%24.followersCount&style=for-the-badge&logo=bluesky&label=%40saiemgilani.bsky.social&amp;" alt="@saiemgilani.bsky.social"/></a>
+[![LinkedIn Follow](https://img.shields.io/badge/LinkedIn-saiem--gilani-white?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0B66C2)](https://www.linkedin.com/in/saiem-gilani/)
+[![GitHub Follow](https://img.shields.io/github/followers/SaiemGilani?style=for-the-badge&logo=Github&label=%40SaiemGilani&color=eee)](https://github.com/saiemgilani)
+
+-  [SportsDataverse.org](https://sportsdataverse.org/ "The home page of the SportsDataverse Organization") <a href='https://twitter.com/sportsdataverse' target='blank'><img src="https://img.shields.io/twitter/follow/sportsdataverse?color=blue&amp;label=%40SportsDataverse&amp;logo=x&amp;style=for-the-badge" alt="@sportsdataverse"/></a> <a href='https://bsky.app/profile/sportsdataverse.org' target='blank'><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpublic.api.bsky.app%2Fxrpc%2Fapp.bsky.actor.getProfile%2F%3Factor%3Dsportsdataverse.org&query=%24.followersCount&style=for-the-badge&logo=bluesky&label=%40sportsdataverse.org&amp;" alt="@sportsdataverse.org"/></a>
+
+-  [GameOnPaper.com](https://gameonpaper.com/cfb "Game on Paper: Live analytics for the modern age") 
+<a href='https://twitter.com/gameonpaper' target='blank'><img src="https://img.shields.io/twitter/follow/gameonpaper?color=blue&amp;label=%40GameOnPaper&amp;logo=x&amp;style=for-the-badge" alt="@gameonpaper"/></a> <a href='https://bsky.app/profile/gameonpaper.com' target='blank'><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpublic.api.bsky.app%2Fxrpc%2Fapp.bsky.actor.getProfile%2F%3Factor%3Dgameonpaper.com&query=%24.followersCount&style=for-the-badge&logo=bluesky&label=%40gameonpaper.com&amp;" alt="@gameonpaper.com"/></a>
+
+-  [AthlyticZ.com](https://athlyticz.com/ "AthlyticZ: State of the Art Data Science Training") <a href='https://twitter.com/AthlyticZ' target='blank'><img src="https://img.shields.io/twitter/follow/AthlyticZ?color=blue&amp;label=%40AthlyticZ&amp;logo=x&amp;style=for-the-badge" alt="@AthlyticZ"/></a> <a href='https://bsky.app/profile/AthlyticZ.com' target='blank'><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpublic.api.bsky.app%2Fxrpc%2Fapp.bsky.actor.getProfile%2F%3Factor%3Dathlyticz.bsky.social&query=%24.followersCount&style=for-the-badge&logo=bluesky&label=%40athlyticz.bsky.social&amp;" alt="@athlyticz.bsky.social"/></a>

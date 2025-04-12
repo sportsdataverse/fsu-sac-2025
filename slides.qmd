@@ -2,7 +2,7 @@
 title: "FSU Sports Analytics Speaker Series"
 opengraph:
   image: 
-    src: "https://raw.githubusercontent.com/sportsdataverse/fsu-sac/main/media/sdv-blue.png"
+    src: "https://raw.githubusercontent.com/sportsdataverse/fsu-sac-2025/main/media/sdv-blue.png"
   twitter:
     site: "@sportsdataverse"
     card: summary_large_image
@@ -13,7 +13,7 @@ format:
     theme: [my_theme.scss]
     slide-number: true
     preview-links: auto
-    footer: "Slides link [`fsusac.sportsdataverse.org`](https://fsusac.sportsdataverse.org/){target='_blank'} | [Source code](https://github.com/sportsdataverse/fsu-sac-2025/){target='_blank'} | Author: Saiem Gilani ![](https://img.shields.io/github/followers/SaiemGilani?style=for-the-badge&logo=Github&label=%40SaiemGilani%20followers&color=eee){target='_blank'}"
+    footer: "Slides link [`fsu2025.sportsdataverse.org`](https://fsu2025.sportsdataverse.org/){target='_blank'} | [Source code](https://github.com/sportsdataverse/fsu-sac-2025/){target='_blank'} | Author: Saiem Gilani ![](https://img.shields.io/github/followers/SaiemGilani?style=for-the-badge&logo=Github&label=%40SaiemGilani&color=eee){target='_blank'}"
 # author: "Saiem Gilani"
 #affiliation: 
 execute:
@@ -27,7 +27,7 @@ pak::pak("hadley/emo")
 ## FSU Sports Analytics Speaker Series {style="text-align: center;"}
 
 ::: {style="text-align: center;"}
-**Slide Link**: [`fsusac.sportsdataverse.org`](https://fsusac.sportsdataverse.org/)
+**Slide Link**: [`fsu2025.sportsdataverse.org`](https://fsu2025.sportsdataverse.org/)
 
 Saiem Gilani
 :::
@@ -396,7 +396,7 @@ knitr::include_graphics("https://raw.githubusercontent.com/nflverse/nflverse/mai
 -   [Game on Paper](https://gameonpaper.com/cfb/) - for a look at the `sportsdataverse` python package serving live CFB expected points and win probability metrics
 <a href='https://twitter.com/gameonpaper' target='blank'><img src="https://img.shields.io/twitter/follow/gameonpaper?color=blue&amp;label=%40GameOnPaper&amp;logo=x&amp;style=for-the-badge" alt="@gameonpaper"/></a> <a href='https://bsky.app/profile/gameonpaper.com' target='blank'><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpublic.api.bsky.app%2Fxrpc%2Fapp.bsky.actor.getProfile%2F%3Factor%3Dgameonpaper.com&query=%24.followersCount&style=for-the-badge&logo=bluesky&label=%40gameonpaper.com&amp;" alt="@gameonpaper.com"/></a>
 
--   [AthlyticZ.com](https://athlyticz.com) - for courses to level up your data science skills taught by sports analytics veterans
+-   [AthlyticZ.com](https://athlyticz.com) - for state of the art data science training from sports industry veterans <a href='https://twitter.com/AthlyticZ' target='blank'><img src="https://img.shields.io/twitter/follow/AthlyticZ?color=blue&amp;label=%40AthlyticZ&amp;logo=x&amp;style=for-the-badge" alt="@AthlyticZ"/></a> <a href='https://bsky.app/profile/AthlyticZ.com' target='blank'><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpublic.api.bsky.app%2Fxrpc%2Fapp.bsky.actor.getProfile%2F%3Factor%3Dathlyticz.bsky.social&query=%24.followersCount&style=for-the-badge&logo=bluesky&label=%40athlyticz.bsky.social&amp;" alt="@athlyticz.bsky.social"/></a>
 
 -   [guideR](https://docs.google.com/spreadsheets/u/0/d/1LPe8xYduoep9qCrNzBGdJHaHZ8dnmdHNnu7UXZKzawU/htmlview#gid=145377427) - compilation of sports analytics resources
 
