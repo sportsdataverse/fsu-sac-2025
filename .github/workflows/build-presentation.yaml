@@ -1,0 +1,68 @@
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    # Trigger once a week, on a Sunday (0)
+    - cron: "0 0 * * 0"
+
+name: Build Presentation
+
+jobs:
+  build-presentation:
+    runs-on: ${{ matrix.config.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        config:
+          - {os: 'ubuntu-latest',   r: 'release'}
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      R_KEEP_PKG_SOURCE: yes
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: r-lib/actions/setup-pandoc@v2
+        with:
+          pandoc-version: "3.0.1"
+
+      - name: Setting up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+          
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: pre-release
+      - run: |
+          quarto --version
+          quarto install extension quarto-ext/fontawesome --no-prompt
+
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          pak-version: devel
+          extra-packages: |
+            quarto-dev/quarto-r
+
+      - name: Install system dependencies
+        run: |
+          pak::pkg_install("hadley/emo")
+        shell: Rscript {0}
+        
+      - name: Render slides
+        run: |
+          options(crayon.enabled = TRUE)
+          quarto::quarto_render("slides.qmd")
+          fs::file_copy("slides.html", "index.html", overwrite = TRUE)
+        shell: Rscript {0}
+
+      - name: Build PDF using decktape
+        run: |
+          rm -rf slides
+          mkdir slides && sudo chmod 777 slides
+          sudo npm install -g --unsafe-perm=true --allow-root decktape
+          docker run --rm -t -v `pwd`:/slides -v ~:/home/user astefanutti/decktape slides.html slides/slides.pdf
+
+      - uses: stefanzweifel/git-auto-commit-action@v4

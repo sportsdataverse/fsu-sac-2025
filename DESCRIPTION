@@ -1,0 +1,42 @@
+Package: fsusac2025
+Title: Developing a portfolio in the Sports Analytics space
+Version: 1.0
+Authors@R: 
+    person(given = "Saiem",
+           family = "Gilani",
+           role = c("cre", "aut", "cph"),
+           email = "saiem.gilani@gmail.com",
+           comment = c(Twitter = "@saiemgilani"))
+Description: This presentation contains tips on how to develop a portfolio
+    in the sports analytics space. 
+License: CC0 1.0 Universal
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.2
+URL: https://github.com/saiemgilani/ssas/,
+    https://saiemgilani.github.io/ssas/
+BugReports: https://github.com/saiemgilani/ssas/issues
+Depends:
+    dplyr,
+    forcats,
+    fs,
+    ggalluvial,
+    ggtext,
+    ggplot2,
+    glue,
+    knitr,
+    purrr,
+    quarto,
+    reticulate,
+    tidyr
+Remotes:
+    sportsdataverse/hoopR,
+    sportsdataverse/wehoop,
+    sportsdataverse/cfbfastR,
+    sportsdataverse/cfbplotR,
+    sportsdataverse/fastRhockey,
+    sportsdataverse/oddsapiR,
+    sportsdataverse/sportyR,
+    BillPetti/baseballr,
+    jaseziv/worldfootballR,
+    hadley/emo

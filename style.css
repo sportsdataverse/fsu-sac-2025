@@ -1,0 +1,17 @@
+.footer > p {
+  font-size: 15px;
+}
+
+
+.pull-left {
+  float: left;
+  width: 55%;
+}
+.pull-right {
+  float: right;
+  width: 29%;
+}
+
+.pull-right ~ * {
+  clear: both;
+}
