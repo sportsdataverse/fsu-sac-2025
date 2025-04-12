@@ -50,7 +50,7 @@ Born and raised a Seminole and a proud Tallahassee native. I am an FSU alumnus i
 
 
 
-## Where are data skills used in sports?
+## Where are data skills used in sports?  {.smaller}
 
 -   Data-Driven Decision Making
     * Performance Optimization: player performance, tracking fitness, etc
@@ -59,7 +59,7 @@ Born and raised a Seminole and a proud Tallahassee native. I am an FSU alumnus i
     * Scouting: evaluating player performance, identifying potential recruits, etc
     * Drafting: evaluating draft prospects, making informed decisions on draft picks, etc
 
-## Where are data skills used in sports? (cont'd)
+## Where are data skills used in sports? (cont'd)  {.smaller}
 
 -   Fan Engagement
     * Social Media: analyzing fan sentiment, creating engaging content, etc
@@ -68,7 +68,7 @@ Born and raised a Seminole and a proud Tallahassee native. I am an FSU alumnus i
     * Sponsorship Insights: data helps teams demonstrate ROI to sponsors by quantifying fan engagement and brand exposure
     * Dynamic Pricing: engineers create models for ticket pricing that adjust based on demand, maximizing revenue.
 
-## Where are data skills used in sports? (cont'd)
+## Where are data skills used in sports? (cont'd)  {.smaller}
 
 -   Injury Prevention
     * Wearable Technology: monitoring player health data, identifying injury risks, etc
