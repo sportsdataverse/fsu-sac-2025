@@ -294,7 +294,7 @@ The first public conversation on the SportsDataverse projects happened at the Ca
 :::
 
 
-## Continue your learning journey
+## Continue your learning journey  {.smaller}
 
 [AthlyticZ](https://athlyticz.com) offers courses in Python, R, Shiny Applications, Stan programming and beyond!
 
@@ -305,7 +305,7 @@ The first public conversation on the SportsDataverse projects happened at the Ca
 -   Curricula designed by industry and academic veterans from the NBA, MLB, ESPN, Notable authors from recognized textbooks in R/Python and members at Columbia University + UPenn.
 
 
-## AthlyticZ Academy
+## AthlyticZ Academy  {.smaller}
 
 ### State-of-the-Art Offerings
 -   Customized curricula to meet the market needs for a blend of data science with sports analytics applications
@@ -316,7 +316,7 @@ The first public conversation on the SportsDataverse projects happened at the Ca
 ### Custom CMS
 -   Instead of an off the shelf LMS/CMS – we invested in the development of a customized environment to ensure scalability, bespoke content management, code ownership and more.
 
-## AthlyticZ Preview
+## AthlyticZ Preview  {.smaller}
 
 ```{r, echo=FALSE, eval=TRUE, out.width = "50%"}
 knitr::include_graphics("media/AthlyticZ_preview_image.png")
@@ -387,7 +387,7 @@ knitr::include_graphics("https://raw.githubusercontent.com/nflverse/nflverse/mai
 
 . . .
 
-## Learn more
+## Learn more   {.smaller}
 
 -   [`SportsDataverse`.org](https://www.sportsdataverse.org/) <a href='https://twitter.com/sportsdataverse' target='blank'><img src="https://img.shields.io/twitter/follow/sportsdataverse?color=blue&amp;label=%40SportsDataverse&amp;logo=x&amp;style=for-the-badge" alt="@sportsdataverse"/></a> <a href='https://bsky.app/profile/sportsdataverse.org' target='blank'><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fpublic.api.bsky.app%2Fxrpc%2Fapp.bsky.actor.getProfile%2F%3Factor%3Dsportsdataverse.org&query=%24.followersCount&style=for-the-badge&logo=bluesky&label=%40sportsdataverse.org&amp;" alt="@sportsdataverse.org"/></a>
 
